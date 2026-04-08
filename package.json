@@ -1,0 +1,22 @@
+{
+  "name": "baptiste_sardou_portfolio",
+  "version": "1.0.0",
+  "description": "Baptiste Sardou — dev portfolio in your terminal",
+  "bin": {
+    "baptiste_sardou_portfolio": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.12"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": ["portfolio", "cli", "npx"],
+  "author": "Baptiste Sardou",
+  "license": "MIT",
+  "type": "module"
+}
